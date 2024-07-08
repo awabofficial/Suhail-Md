@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZn6N059PwNW717Ww3Q";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaZn6N059PwNW717Ww3Q" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/2bc4944ed03c534bf3f6f.mp4" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/4069fcb7012e1458b7445.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "بوت توبي 𝐓𝐎𝐁𝐄 𖣓 𝗫𝟵" 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/4069fcb7012e1458b7445.jpg" // "text" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/2bc4944ed03c534bf3f6f.mp4" // "text" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "recording" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_22_13_07_08_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "Aztec_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "A17_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -76,7 +76,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "بوت توبي  - 𝐓𝐎𝐁𝐄 𖣓 𝗫𝟵",
   packname: process.env.PACK_NAME || "توبي لديكم لا خوف عليكم 249116554687",
-  botname : process.env.BOT_NAME  || "*BOT TOBE*",
+  botname : process.env.BOT_NAME  || "BOT TOBE",
   ownername:process.env.OWNER_NAME|| "تــوبي شخصيـاً",
 
 
