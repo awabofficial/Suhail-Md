@@ -25,8 +25,8 @@ global.caption = process.env.CAPTION || global.caption || "بوت الأسطور
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "249124702614";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "249124702614";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "249928117462";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "249928117462";
 
 
 
